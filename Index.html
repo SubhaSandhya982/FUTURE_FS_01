@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--FONT Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!--MAIN CSS-->
+        <link rel="stylesheet" href="Style.css">
+        <title>MY PORTFOLIO</title>
+    </head>
+    <body>
+        <!--HEADER DESIGN-->
+        <header class="header">
+            <a href="#" class="logo">Sandhya.</a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#project">Project</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!--HOME SECTION DESIGN-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Myself</h3>
+                <h1>Subha Sandhya Mahapatro</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>Driven by a passion for innovation, we specialize in web development and data analysis. Our mission is to create stunning, user-centric websites that capture your brand's essence and provide seamless experiences. We transform complex data into actionable insights, empowering informed decisions and bridging the gap between creativity and analytics to fuel your business's growth in the digital age.</p><br>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        
+                </div><br>
+                <a href="Assets/Resume_SubhaSandhyaMahapatro.pdf" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="Assets/profile_1.png" alt="">
+            </div>
+        </section>
+
+
+        <!--ABOUT SECTION DESIGN-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="Assets/me.jpg" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>I'm a Computer Science and Engineering (CSE) </h3>
+                <p>As a highly motivated and results-driven Computer Science graduate with a strong foundation in programming, algorithms, data structures, and software development. Proficient in languages such as Java, Python, and HTML/CSS, with hands-on experience in building applications and solving complex problems. Familiar with web development frameworks, and version control tools like Git. Eager to apply academic knowledge in a practical environment, collaborate in team settings, and continuously learn and grow in the field of technology. Passionate about coding, innovation, and delivering efficient solutions.</p>
+                
+                <div class="tab-titles">
+                    <a class="tab-links active-link" onclick="opentab('skill')">Technical Skills</a>
+                    <a class="tab-links" onclick="opentab('edu')">Education</a>
+                    <a class="tab-links" onclick="opentab('exp')">Experiance</a>
+                    <a class="tab-links" onclick="opentab('cer')">Certifications</a>
+                </div>
+
+                <div class="tab-contents active-tab" id="skill">
+                    <ul>
+                        <li><span>JAVA</span></li>
+                        <li><span>PYTHON</span></li>
+                        <li><span>HTML5/CSS3</span></li>
+                        <li><span>DBMS</span></li>
+                        <li><span>SQL</span></li>
+                        <li><span>POWER BI</span></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="edu">
+                    <ul>
+                        <li><span>2022-2025</span><br><p style="font-size: 16px; color: white;">Siksha 'O' Anusandhan University(ITER), Bhubaneswar, India<br>Bachelor of Technology in Computer Science and Engineering (CGPA 7.46)</p></li>
+                        <li><span>2019-2022</span><br><p style="font-size: 16px; color: white;">Nilachal Polytechnic (SCTE&VT), Bhubaneswar, India<br>Diploma in Computer Science and Engineering (Secured 74.24%)</p></li>
+                        <li><span>2018</span><br><p style="font-size: 16px; color: white;">Kendriya Vidyalaya No. 1, Bhubaneswar, India<br>Central Board of Secondary Education (Secured 56%)</p></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="exp">
+                    <ul>
+                        <li><span>Jul 2024-Aug 2024</span><br><p style="font-size: 16px; color: white;">Student Intern, CTTC, Bhubaneswar, Odisha<br>Project: My FaceClone, Python</p></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="cer">
+                    <ul>
+                        <li><span>May 2022-Jul 2022</span><br><p style="font-size: 16px; color: white;">Python Cum Project Certificate<br>BY Altalune Technology</p></li>
+                        <li><span>Jul 2024</span><br><p style="font-size: 16px; color: white;">Power Bi Workshop Certificate<br>BY Jobaaj Learning</p></li>
+                        <li><span>Jul 2024</span><br><p style="font-size: 16px; color: white;">Build your Own Generative AI Model<br>BY Next Wave</p></li>
+                    </ui>	
+                </div>
+            </div>
+        </section>
+
+        <!--SERVICE SECTION DESIGN -->
+        <section class="service" id="service">
+            <h2 class="heading">My <span>Service</span></h2>
+
+            <div class="service-container">
+                <div class="service-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>In web development, you’re not just writing code — you’re designing how people explore information, connect with others, and experience the digital world. It’s a journey of learning and building, where creativity meets structure. For a fresher, every small project is a big step toward mastery.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="service-box">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>UI/UX designing</h3>
+                    <p>In web development, you’re not just writing code — you’re designing how people explore information, connect with others, and experience the digital world. It’s a journey of learning and building, where creativity meets structure. For a fresher, every small project is a big step toward mastery.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="service-box">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>App Development</h3>
+                    <p>In web development, you’re not just writing code — you’re designing how people explore information, connect with others, and experience the digital world. It’s a journey of learning and building, where creativity meets structure. For a fresher, every small project is a big step toward mastery.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!--PROJECT SECTION DESIGN-->
+        <section class="project" id="project">
+            <h2 class="heading">Leatest <span>Project</span></h2>
+
+            <div class="project-container">
+                <div class="project-box">
+                    <img src="Assets/project_1.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Web Design</h4>
+                        <p>About project</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <img src="Assets/project_2.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Web Design</h4>
+                        <p>About project</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <img src="Assets/project_1.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Web Design</h4>
+                        <p>About project</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <img src="Assets/project_2.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Web Design</h4>
+                        <p>About project</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <img src="Assets/project_1.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Web Design</h4>
+                        <p>About project</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+
+                <div class="project-box">
+                    <img src="Assets/project_2.jpg" alt="">
+                    <div class="project-layer">
+                        <h4>Web Design</h4>
+                        <p>About project</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT SECTION DESIGN-->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="" rows="" placeholder="Your Message"></textarea>
+                <input type="Submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!--FOOTER DESIGN-->
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>CopyRight &copy; 2025 by @Sandhya | All Right Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+
+        <!--SCROLL REVEAL JS-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--TYPED JS-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!--MAIN JS-->
+        <script src="Script.js"></script>
+    </body>
+</html>
